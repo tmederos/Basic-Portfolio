@@ -1,11 +1,81 @@
-<!-- Homework Assignment 1 - Portfolio -->
-<!-- Contact Page -->
+<!-- Homework Assignment 1 - Portfolio Contact Page -->
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Trish Mederos</title>
+  <link rel="icon" type="image/x-icon"  href="assets/images/bird.png" sizes="32x32">
+  <!-- Link in the style and reset ccs files -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
-<body>
+
+  <body>
+  <!-- Top Header Section -->
+  <header>
+    <!-- Top Header Section -->
+    <div class="menuBar">
+      <!-- Name Box  -->
+      <div id="myName">
+        <h1>Trish Mederos</h1>
+      </div>
+      <!-- Nav - Menu options Section  -->
+      <div id="menu">
+        <!-- Three choices: About/Portfolio/Contact -->
+        <p><a href="#">About</a></p>
+          <h6>|</h6>
+        <p><a href="portfolio.html">Portfolio</a></p>
+          <h6>|</h6>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+    </div>
+  </header>
+
+  <div id="wrapper">
+
+  <section id="contact">
+
+  <h2>Contact</h2>
+
+  <hr>
+
+  <form action="mailto:trishmederos@gmail.com">
+
+      <p>Name</p>
+      <input type="text" name="Name" placeholder="John Smith" required="true">
+
+      <p>Email</p>
+      <input type="text" name="Email" placeholder="example@domain.com" required="true">
+
+      <p>Message</p>
+      <textarea name="Message"></textarea>
+
+      <input id="submit" type="submit" value="Submit">
+
+  </form>
+  </section>
+
+  <!-- Connect Section: links to Github/LinkedIn/Stackoverflow  -->
+  <section class="connect">
+      <h3>Connect With Me</h3>
+      <hr>
+
+      <ul>
+        <li><a href="https://github.com/tmederos" target="_blank"><img src="assets/images/github.png" alt="Github" class="iconlink"></a></li>
+
+        <li><a href="https://www.linkedin.com/in/trish-mederos-24b1b72/" target="_blank"><img src="assets/images/linkedin.png" alt="LinkedIn" class="iconlink"></a></li>
+
+        <li><a href="https://stackoverflow.com" target="_blank"><img src="assets/images/stackoverflow.png" alt="StackOverflow" class="iconlink" height="55px" width="55px"></a></li>
+      </ul>
+  </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footerDiv">
+      <p>Copyright © - Trish Mederos 2017</p>
+    </div>
+  </footer>
 
 </body>
 </html>
