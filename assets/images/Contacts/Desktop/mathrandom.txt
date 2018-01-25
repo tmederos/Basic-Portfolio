@@ -1,0 +1,21 @@
+I'm looking for an efficient, elegant way to generate a JavaScript 
+variable that is 9 digits in length: Example: 323760488
+
+Math.random().toString().slice(2,11);
+/*
+Math.random()                         ->  0.12345678901234
+             .toString()              -> "0.12345678901234"
+                        .slice(2,11)  ->   "123456789"
+*/
+
+function getRandom(length) {
+
+return Math.floor(Math.pow(10, length-1) + Math.random() * 9 * Math.pow(10, length-1));
+
+}
+getRandom(9) => 234664534
+
+
+Random Numbers: Either 0 or 1
+randomNumber = Math.floor((Math.random() * 2);
+
