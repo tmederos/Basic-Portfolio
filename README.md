@@ -7,7 +7,7 @@ Portfolio
 Initial portfolio for University of Arizona Coding Bootcamp.
 
 ---
-Check out portfolio here: https://evening-mesa-88834.herokuapp.com
+Check out portfolio here: https://tmederos.github.io/Basic-Portfolio/
 
 ---
 # Screenshot About Page
